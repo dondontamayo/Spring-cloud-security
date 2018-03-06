@@ -1,0 +1,17 @@
+server.port: 9000
+
+security:
+  #user:
+    #name: dondon
+    #password: password
+    #role: user
+  oauth2:
+    client:
+      client-id: dawntamayo
+      client-secret: dawntamayosecret
+      authorized-grant-types: authorization_code,refresh_token,password,client_credential
+      scope: toll_read,toll_report
+        
+    
+server:
+  context-path: /services    
